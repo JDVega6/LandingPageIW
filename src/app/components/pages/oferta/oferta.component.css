@@ -1,52 +1,9 @@
-
-
 main {
     display: flex;
     flex-direction: column;
     gap: 40px;
     /* margin-top: 20px; */
 }
-.card-responsive{
-    flex-direction: row;
-}
-
-@media (min-width: 350px) and (max-width: 710px){
-	.card-responsive {
-        flex-direction: column;
-      }
-}
-.main-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    gap: 20px;
-    font-family: "Roboto", sans-serif;
-
-    span {
-        font-size: 16px;
-        font-weight: 700;
-        color: var(--secondary-text);
-    }
-    
-    h1 {
-        font-size: 36px;
-        font-weight: 900;
-        color: var(--primary-text);
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        border-radius:10%;
-    }
-}
-
-.card1{
-
-    width: 300px;
-}
-
 .benefit-section {
     display: flex;
     flex-direction: column;
