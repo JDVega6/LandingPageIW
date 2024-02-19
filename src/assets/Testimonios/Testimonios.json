@@ -1,0 +1,35 @@
+[
+{
+
+    "name":"Alejandro",
+    "coutry":"Rusia",
+    "career":"Programación",
+    "img":"assets/Estudiantes/IMG_0770(1).jpg",
+    "description": "David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
+},
+{
+
+    "name":"Oscar",
+    "coutry":"Rusia",
+    "career":"Maestría en arquitectura",
+    "img":"assets/Estudiantes/IMG_0771(1).jpg",
+    "description": "Fui a estudiar una maestría y quedé impresionado por el tema de costos. El viaje fue perfecto y aprecié mucho el profesionalismo de la empresa. Recomiendo totalmente."
+},
+{
+
+    "name":"Alejandro",
+    "coutry":"Rusia",
+    "career":"Programación",
+    "img":"assets/Estudiantes/IMG_0770(1).jpg",
+    "description": "David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
+},
+{
+
+    "name":"Alejandro",
+    "coutry":"Rusia",
+    "career":"Programación",
+    "img":"assets/Estudiantes/IMG_0770(1).jpg",
+    "description": "David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
+}
+
+]

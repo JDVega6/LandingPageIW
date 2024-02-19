@@ -31,7 +31,34 @@
 }
 
 .zoom:hover {
+	transform: scale(1.4);
+}
+
+.shine-effect {
+	cursor: pointer;
+	position: relative;
+	transition: transform 200ms ease;
+	overflow: hidden;
+}
+
+.shine-effect:before {
+	content: "";
+	position: absolute;
+	height: 200%;
+	width: 50px;
+	transform: rotate(30deg);
+	background-color: var(--secondary-color);
+	left: -80%;
+	top: -50%;
+}
+
+.shine-effect:hover {
 	transform: scale(1.5);
+}
+
+.shine-effect:hover:before {
+	transition: left 800ms ease;
+	left: 170%;
 }
 
 @media (min-width: 768px) {

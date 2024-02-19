@@ -6,55 +6,74 @@
 }
 .container .card {
     
-    height : 300px;  
+    height : 400px;  
     /* background-color : #B79FF7; */
 
-    background: rgba( 183, 159, 247, 0.5);
+    /* background: rgba( 183, 159, 247, 0.5);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 7px );
--webkit-backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px ); */
 
     margin : 20px 0px;
     padding : 30px 15px;
     width : 340px;
     box-shadow : 0 1px 2px rgba(238, 234, 234, 0.1);
-    border:none;
-    border-radius: 25px;
+    /* border:solid 3px var(--light-primary-color); */
+    border-radius: 15px;
     box-shadow: 1px 7px 25px rgba(0,0,0,0.1);
 }
 
 .container .card .image{
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
 .container .card .image img {
-    border-radius : 10%;
-    height: 250px;
-    width: 150px;
+    align-items: center;
+    border-radius : 50%;
+    padding: 2px;
+    border:dashed  4px var(--third-color);
+
+    /* border: solid 4px -webkit-linear-gradient(90deg, var(--light-primary-color), var(--secondary-color)); */
+    height: 200px;
+    width: 200px;
     object-fit: cover;
+
+    /* --light-primary-color */
+    /* --bg-secondary */
 }
 
 .content-card{
-    display: flex;
+    display: block;
     width: 100%;
     margin-top: -15px;
 }
 
-
 .description{
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .description h4{
+    text-align: left;
 font-family: fantasy;
 font-weight: 300;
 color: var(--primary-text);
 }
 
 .description h5{
+    text-align: left;
     font-size: medium;
     font-family: fantasy;
     font-weight: 50;
     color: var(--secondary-text);
+}
+
+
+.zoom {
+	transition: transform 0.2s;
+}
+
+.zoom:hover {
+	transform: scale(1.04);
 }
 
 
@@ -64,3 +83,13 @@ color: var(--primary-text);
     text-align: justify;
 
 }
+
+.rating {
+    font-size: 30px; /* Tamaño de las estrellas */
+    color: #ffdb58;
+    transform: translate(0,-25px);
+  }
+  
+
+
+  

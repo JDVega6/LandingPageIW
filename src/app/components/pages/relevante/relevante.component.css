@@ -67,5 +67,13 @@ width: 20ch;
         max-width: 100%;
         height: auto;
         border-radius:10%;
+        /* border:dashed  4px var(--third-color); */
     }
+    .main-img img{
+        max-width: 100%;
+        height: auto;
+        border-radius:10%;
+        border:dashed  4px var(--third-color);
+    } 
 }
+
