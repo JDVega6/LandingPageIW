@@ -1,5 +1,3 @@
-
-
 main {
     display: flex;
     flex-direction: column;
@@ -10,8 +8,34 @@ main {
     text-align: center;
     /* margin-left: 50px; */
 }
+
+.center img{
+    width: 180px;
+    
+}
 .card-responsive{
     flex-direction: row;
+}
+
+span{
+display: block;
+white-space: nowrap;
+border-right: 5px solid var(--bg-secondary);
+width: 20ch;
+    animation: write 4s steps(20),
+            flicker 0.4s infinite alternate;
+            overflow: hidden;
+}
+
+@keyframes write {
+    from{
+        width: 0;
+    }
+}
+@keyframes flicker {
+    70%{
+        border-color: transparent;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 710px){
@@ -28,7 +52,7 @@ main {
     font-family: "Roboto", sans-serif;
 
     span {
-        font-size: 16px;
+        font-size: 24px;
         font-weight: 700;
         color: var(--secondary-text);
     }
@@ -43,53 +67,5 @@ main {
         max-width: 100%;
         height: auto;
         border-radius:10%;
-    }
-}
-
-.card1{
-
-    width: 300px;
-}
-
-.benefit-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    gap: 40px;
-
-    .benefit-data {
-        flex-direction: row;
-        border-bottom: 10px solid var(--secondary-color);
-        padding-bottom: 20px;
-
-        h2 {
-            font-size: 48px;
-            font-weight: 600;
-            font-family: "Roboto", sans-serif;
-            color: var(--primary-text);
-
-            b {
-                background: -webkit-linear-gradient(180deg, var(--light-primary-color), var(--secondary-color));
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                font-style: normal;
-            }
-        }
-    }
-
-    p {
-        font-size: 24px;
-        font-style: italic;
-        font-weight: 300;
-
-        b {
-            font-weight: bold;
-            background: -webkit-linear-gradient(90deg, var(--light-primary-color), var(--secondary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-style: normal;
-        }
     }
 }
