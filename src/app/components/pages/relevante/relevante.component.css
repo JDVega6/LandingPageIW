@@ -6,6 +6,10 @@ main {
     gap: 40px;
     /* margin-top: 20px; */
 }
+.center{
+    text-align: center;
+    /* margin-left: 50px; */
+}
 .card-responsive{
     flex-direction: row;
 }

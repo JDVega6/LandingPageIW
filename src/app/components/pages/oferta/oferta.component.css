@@ -4,9 +4,18 @@ main {
     gap: 40px;
     /* margin-top: 20px; */
 }
+
+.card-responsive{
+    flex-direction: row;
+}
+
+@media (min-width: 350px) and (max-width: 710px){
+	.card-responsive {
+        flex-direction: column;
+      }
+}  
 .benefit-section {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -15,11 +24,12 @@ main {
     .benefit-data {
         flex-direction: row;
         border-bottom: 10px solid var(--secondary-color);
+        /* border-bottom: 10px solid var(--light-primary-color); */
         padding-bottom: 20px;
 
         h2 {
             font-size: 48px;
-            font-weight: 600;
+            font-weight: bold;
             font-family: "Roboto", sans-serif;
             color: var(--primary-text);
 
@@ -35,7 +45,7 @@ main {
     p {
         font-size: 24px;
         font-style: italic;
-        font-weight: 300;
+        font-weight: 450;
 
         b {
             font-weight: bold;
