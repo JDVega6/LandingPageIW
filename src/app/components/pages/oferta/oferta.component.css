@@ -28,7 +28,7 @@ main {
         padding-bottom: 20px;
 
         h2 {
-            font-size: 48px;
+            font-size: 30px;
             font-weight: bold;
             font-family: "Roboto", sans-serif;
             color: var(--primary-text);
@@ -43,7 +43,7 @@ main {
     }
 
     p {
-        font-size: 26px;
+        font-size: 28px;
         font-style: italic;
         font-weight: 450;
 

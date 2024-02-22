@@ -5,54 +5,6 @@ main {
     
     /* margin-top: 20px; */
 }
-/* .fondotest{
-    height: 500px;
-    width: auto;
-    background-image: url("/assets/principal.jpeg");
-    background-size: cover;
-    background-position: 25% 50%;
-    border-radius: 2%;
-    overflow: hidden; 
-    filter: blur(0.5px);
-} */
-
-.fondotest {
-    position: relative;
-    height: 500px;
-    width: auto;
-    overflow: hidden;
-}
-
-.borde-difuminado {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("/assets/principal.jpeg");
-    background-size: cover;
-    background-position: 25% 50%;
-    border-radius: 20px; /* Ajusta el valor según lo desees */
-    filter: blur(400px); /* Ajusta el valor del difuminado según lo desees */
-}
-
-/* Para que la imagen de fondo original no tenga el borde difuminado */
-.fondotest::before {
-    content: "";
-    position: absolute;
-    top: 10px; /* Ajusta el valor según el tamaño del borde difuminado */
-    left: 10px; /* Ajusta el valor según el tamaño del borde difuminado */
-    right: 10px; /* Ajusta el valor según el tamaño del borde difuminado */
-    bottom: 10px; /* Ajusta el valor según el tamaño del borde difuminado */
-    background-image: url("/assets/principal.jpeg");
-    background-size: cover;
-    background-position: 25% 50%;
-    border-radius: 10px; /* Ajusta el valor según el tamaño del borde difuminado */
-}
-
-
-
-
 .center{
     text-align: center;
     /* margin-left: 50px; */
@@ -102,7 +54,7 @@ width: 20ch;
 
     span {
         text-align: justify;
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 700;
         color: var(--secondary-text);
     }
@@ -120,11 +72,6 @@ width: 20ch;
         border-radius:10%;
            
     }
-    /* .main-img img{
-        max-width: 300px;
-        height: 200px;
-        border-radius:10%;
-        border:dashed  4px var(--third-color);
-    }  */
+
 }
 

@@ -38,9 +38,20 @@ backdrop-filter: blur( 7px );
     width: 200px;
     object-fit: cover;
 
+
+
     /* --light-primary-color */
     /* --bg-secondary */
 }
+
+@keyframes rotateBorder {
+    from {
+      transform: rotate(0deg); /* Angulo inicial de rotación */
+    }
+    to {
+      transform: rotate(360deg); /* Angulo final de rotación */
+    }
+  }
 
 .content-card{
     display: block;

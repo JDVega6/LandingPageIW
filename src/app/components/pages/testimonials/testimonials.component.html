@@ -1,76 +1,22 @@
-<div class="container">
-    <div class="card zoom">
-        <div class="content-card" >
-            <div class="image">
-
-                <!-- <video width="640" height="360" controls>
-                    <source src="assets\Testimonios\Sharon.mov" type="video/mp4">
-                  </video> -->
-                <img src="assets\Estudiantes\IMG_0770(1).jpg" >
-            </div>
-            <div class="description">
-              <h4>Alejandro </h4>
-              <h5>Rusia, Programación </h5>
-              <p>David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!</p>
-              <div class="rating"> 
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-              </div>
+<div class="container" *ngFor="let item of items;let i=index">
+  <div class="card zoom">
+      <div class="content-card" >
+          <div class="image">
+              <img src="{{item.img}}" >
           </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="card zoom">
-        <div class="content-card" >
-            <div class="image">
-
-                <!-- <video width="640" height="360" controls>
-                    <source src="assets\Testimonios\Sharon.mov" type="video/mp4">
-                  </video> -->
-                <img src="assets\Estudiantes\IMG_0771(1).jpg" >
+          <div class="description">
+            <h4>{{item.name}} </h4>
+            <h5>{{item.country}}, {{item.career}}</h5>
+            <p>{{item.description}}</p>
+            <div class="rating">
+              <span>&#9734;</span>
+              <span>&#9734;</span>
+              <span>&#9734;</span>
+              <span>&#9734;</span>
+              <span>&#9734;</span>
             </div>
-            <div class="description">
-              <h4>Oscar</h4>
-              <h5>Rusia, Maestría en arquitectura </h5>
-              <p>“Fui a estudiar una maestría y quedé impresionado por el tema de costos. El viaje fue perfecto y aprecié mucho el profesionalismo de la empresa. Recomiendo totalmente.”</p>
-              <div class="rating">
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-              </div>
-          </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="card zoom">
-        <div class="content-card" >
-            <div class="image">
-
-                <!-- <video width="640" height="360" controls>
-                    <source src="assets\Testimonios\Sharon.mov" type="video/mp4">
-                  </video> -->
-                <img src="assets\Estudiantes\IMG_1188(1).jpg" >
-            </div>
-            <div class="description">
-              <h4>Sharon </h4>
-              <h5>Rusia, Medicina</h5>
-              <p>“Con David y Hans a mi lado, mis nervios desaparecieron. El papeleo fue más fácil de lo que esperaba y antes de darme cuenta, estaba cumpliendo mi sueño en Rusia.”</p>
-              <div class="rating">
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-                <span>&#9734;</span>
-              </div>
-          </div>
-        </div>
-    </div>
+      </div>
+  </div>
 </div>
 
