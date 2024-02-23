@@ -1,4 +1,4 @@
-main {
+.main {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -9,7 +9,13 @@ main {
     flex-direction: row;
 }
 
-@media (min-width: 350px) and (max-width: 710px){
+.rowTest{
+display: block;
+    flex-direction: column;
+}
+
+
+@media (min-width: 350px) and (max-width: 770px){
 	.card-responsive {
         flex-direction: column;
       }
@@ -40,6 +46,38 @@ main {
                 font-style: normal;
             }
         }
+        @media (min-width: 350px) and (max-width: 710px){
+            h2{
+                font-size: 25px;
+
+            }
+        } 
+    }
+
+    .benefit-data-words{
+        flex-direction: row;
+        padding-bottom: 20px;
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: "Roboto", sans-serif;
+            color: var(--primary-text);
+
+            b {
+                background: -webkit-linear-gradient(180deg, var(--light-primary-color), var(--secondary-color));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-style: normal;
+            }
+        }
+        @media (min-width: 350px) and (max-width: 710px){
+            h2{
+                font-size: 25px;
+
+            }
+        } 
+
+
     }
 
     p {

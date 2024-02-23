@@ -1,4 +1,11 @@
-<div class="container" *ngFor="let item of items;let i=index">
+<div>
+<div class="introduction container">
+  <h1>Testimonios</h1>
+  <h4>Escucha lo que dicen nuestros clientes.</h4>
+  <p>Sumérgete en las experiencias de aquellos que han confiado en nosotros para hacer realidad sus sueños. Sus historias cuentan más que nuestras palabras. ¡Descúbrelo por ti mismo!</p>
+</div>
+
+<div class="container-card" *ngFor="let item of items;let i=index">
   <div class="card zoom">
       <div class="content-card" >
           <div class="image">
@@ -18,5 +25,6 @@
         </div>
       </div>
   </div>
+</div>
 </div>
 

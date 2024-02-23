@@ -1,15 +1,11 @@
-
-
 <div class="dsc-carousel" [ngStyle]="{'min-height': finalHeight}">
   <div class="dsc-carousel__btns">
-    <!-- <i  (click)="setPrev()">4</i>
-    <i (click)="setNext()">6</i> -->
     <i class="fa fa-chevron-circle-left" (click)="setPrev()"></i>
     <i class="fa fa-chevron-circle-right" (click)="setNext()"></i>
   </div>
   <div class="dsc-carousel__content">
     <ng-container *ngFor="let section of items;">
-      <div class="dsc-carousel__content-item" [ngStyle]="{'background-image':'url('+ section.image + ')', 'margin-left': section.marginLeft + '%'}">
+      <div class="dsc-carousel__content-item" [ngStyle]="{'background-image':'url('+ section.image + ')', 'margin-left': section.marginLeft + '%', 'background-position': section.backgroundposition }">
         
         <h1>{{section.title?.first}}<span>{{section.title?.second}}</span></h1>
         <p>{{section.subtitle}}</p>

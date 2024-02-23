@@ -12,7 +12,7 @@ import { setInterval } from 'timers';
 })
 export class MainCarouselComponent implements OnInit {
 
-@Input() height = 500;
+@Input() height = 550;
 @Input() isFullScreen = false;
 @Input() items: IMainCarouselItem[] = [];
 
@@ -58,7 +58,7 @@ setPrev(){
     finalPercentage = -100 * prevPosition;
   }else{
     prevPosition = this.items.length -1;
-    finalPercentage = 100 * prevPosition;
+    finalPercentage = -100 * prevPosition;
   }
   this.items.find((i) => i.id === 0)!.marginLeft = finalPercentage;
   this.currentPosition = prevPosition;

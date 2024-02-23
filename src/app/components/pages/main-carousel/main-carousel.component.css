@@ -12,7 +12,7 @@
   width: 100%;
   position: absolute;
   top: 0;
-  /* background: rgba(255, 255, 255, 0.18); */
+  /* background: rgba(48, 41, 33, 0.08);  */
 }
 
 .dsc-carousel__content {
@@ -30,11 +30,14 @@
   align-items: center;
   justify-content: end;
   min-width: 100%;
+  width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
   background-size: cover;
   background-position: center;
-  
+
   /* box-shadow: 0 16px 56px 250px var(--third-color); */
 
   transition: all 0.5s ease-in-out;

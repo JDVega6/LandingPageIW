@@ -9,4 +9,5 @@ export interface IMainCarouselItem{
     image?:string;
     order?:number;
     marginLeft?:number;
+    backgroundposition?:string;
 }

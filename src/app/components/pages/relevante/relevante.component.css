@@ -1,8 +1,8 @@
-main {
+.main {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    
+
     /* margin-top: 20px; */
 }
 .center{
@@ -12,25 +12,32 @@ main {
 
 .center img{
     width: 180px;
-    
+
 }
 .card-responsive{
     flex-direction: row;
 }
 
-span{
-display: block;
+/* span{
+    justify-content: center;
+display: flex;
 white-space: nowrap;
 border-right: 5px solid var(--bg-secondary);
 width: 20ch;
-    animation: write 4s steps(20),
-            flicker 0.4s infinite alternate;
+    animation: write 4s steps(40),
+            flicker 0.5s infinite alternate;
             overflow: hidden;
+} */
+
+@media (min-width: 350px) and (max-width: 710px){
+	.card-responsive {
+        flex-direction: column;
+      }
 }
 
 @keyframes write {
     from{
-        width: 0;
+        width: 50px;
     }
 }
 @keyframes flicker {
@@ -39,39 +46,44 @@ width: 20ch;
     }
 }
 
-@media (min-width: 350px) and (max-width: 710px){
-	.card-responsive {
-        flex-direction: column;
-      }
-}
+
 .main-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     gap: 20px;
     font-family: "Roboto", sans-serif;
 
     span {
-        text-align: justify;
-        font-size: 28px;
+        text-align: center;
+        font-size: 20px;
         font-weight: 700;
         color: var(--secondary-text);
     }
-    
+
     h1 {
-        text-align: justify;
-        font-size: 38px;
+        text-align: center;
+        font-size: 28px;
         font-weight: 900;
         color: var(--primary-text);
+        /* color: red; */
+    }
+    @media (min-width: 350px) and (max-width: 710px){
+        span {
+
+            font-size: 16px;
+
+        }
+        h1 {
+            font-size: 18px;
+          }
     }
 
     img {
         max-width: 100%;
         height: auto;
         border-radius:10%;
-           
     }
-
 }
 

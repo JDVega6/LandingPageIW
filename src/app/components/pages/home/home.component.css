@@ -17,7 +17,9 @@
     backdrop-filter: blur( 7px );
     -webkit-backdrop-filter: blur( 7px );
     border-radius: 2px;
+    padding: 10px 0px 20px 0;
 }
 
 
-  
+
+

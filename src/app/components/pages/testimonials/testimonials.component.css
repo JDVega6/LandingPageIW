@@ -1,10 +1,10 @@
-.container {
+.container-card {
     display: inline-block;
     width: 360px;
     margin-left: 0px;
     align-items: center;
 }
-.container .card {
+.container-card .card {
     
     height : 400px;  
     /* background-color : #B79FF7; */
@@ -23,11 +23,11 @@ backdrop-filter: blur( 7px );
     box-shadow: 1px 7px 25px rgba(0,0,0,0.1);
 }
 
-.container .card .image{
+.container-card .card .image{
     margin: 0px 0px 0px 0px;
     text-align: center;
 }
-.container .card .image img {
+.container-card .card .image img {
     align-items: center;
     border-radius : 50%;
     padding: 2px;
@@ -100,6 +100,14 @@ color: var(--primary-text);
     color: #ffdb58;
     transform: translate(0,-25px);
   }
+
+  .introduction{
+    color: aliceblue;
+}
+
+.introduction h1{
+    padding-top: 2%;
+}
   
 
 
