@@ -1,7 +1,18 @@
 .home-container{
     /* display:flex; */
     /* justify-content: space-between; */
-    margin-top: 5rem;
+    margin-top: 75px;
+}
+
+@media (min-width: 350px) and (max-width: 710px){
+    .home-container{
+        margin-top: 42px;
+    }
+}
+@media (min-width: 710px) and (max-width: 1025px){
+    .home-container{
+        margin-top: 65px;
+    }
 }
 
 

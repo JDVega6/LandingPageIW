@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    /* margin-top: 20px; */
 }
 
 .card-responsive{
@@ -14,8 +13,7 @@ display: block;
     flex-direction: column;
 }
 
-
-@media (min-width: 350px) and (max-width: 770px){
+@media (min-width: 350px) and (max-width: 970px){
 	.card-responsive {
         flex-direction: column;
       }
@@ -30,8 +28,7 @@ display: block;
     .benefit-data {
         flex-direction: row;
         border-bottom: 10px solid var(--secondary-color);
-        /* border-bottom: 10px solid var(--light-primary-color); */
-        padding-bottom: 20px;
+        padding-bottom: 5px;
 
         h2 {
             font-size: 30px;
@@ -49,14 +46,12 @@ display: block;
         @media (min-width: 350px) and (max-width: 710px){
             h2{
                 font-size: 25px;
-
             }
         } 
     }
 
     .benefit-data-words{
         flex-direction: row;
-        padding-bottom: 20px;
         h2 {
             font-size: 30px;
             font-weight: bold;
@@ -73,18 +68,15 @@ display: block;
         @media (min-width: 350px) and (max-width: 710px){
             h2{
                 font-size: 25px;
-
             }
         } 
-
-
     }
 
     p {
         font-size: 28px;
         font-style: italic;
         font-weight: 450;
-
+        text-align: justify;
         b {
             font-weight: bold;
             background: -webkit-linear-gradient(90deg, var(--light-primary-color), var(--secondary-color));
@@ -93,4 +85,9 @@ display: block;
             font-style: normal;
         }
     }
+    @media (min-width: 350px) and (max-width: 710px){
+        p{
+            font-size: 20px;
+        }
+    } 
 }

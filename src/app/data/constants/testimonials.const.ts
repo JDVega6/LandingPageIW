@@ -34,14 +34,14 @@ export const TESTIMONIAL_DATA: ITestimonialItem[] = [
         img:"https://images.pexels.com/photos/2299390/pexels-photo-2299390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         description: "David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
     },
-    {
-        "id": 5,
-        "name": "Andrea",
-        "country": "Rusia",
-        "career": "Arquitectura",
-        "img": "https://images.pexels.com/photos/7343383/pexels-photo-7343383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "description": "David nos llevó de Bogotá a Rostov del Don, Rusia. Su servicio excepcional nos preparó para la experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
-      },
+    // {
+    //     "id": 5,
+    //     "name": "Andrea",
+    //     "country": "Rusia",
+    //     "career": "Arquitectura",
+    //     "img": "https://images.pexels.com/photos/7343383/pexels-photo-7343383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    //     "description": "David nos llevó de Bogotá a Rostov del Don, Rusia. Su servicio excepcional nos preparó para la experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
+    //   },
       // {
       //   "id": 6,
       //   "name": "Luis",

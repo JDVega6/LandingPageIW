@@ -6,6 +6,25 @@
   position: relative;
 }
 
+.cont-height{
+  min-height: 525px;
+}
+@media (min-width: 380px) and (max-width: 710px) {
+  .cont-height{
+    min-height: 380px; 
+  }
+}
+@media (min-width: 710px) and (max-width: 810px) {
+  .cont-height{
+    min-height: 440px; 
+  }
+}
+@media (min-width: 810px) and (max-width: 960px) {
+  .cont-height{
+    min-height: 600px; 
+  }
+}
+
 .dsc-carousel::before {
   content: '';
   height: 100%;
