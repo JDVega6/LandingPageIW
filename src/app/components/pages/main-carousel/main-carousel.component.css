@@ -31,7 +31,7 @@
   width: 100%;
   position: absolute;
   top: 0;
-  /* background: rgba(48, 41, 33, 0.08);  */
+  background: rgba(86, 112, 164, 0.15); 
 }
 
 .dsc-carousel__content {
@@ -63,7 +63,7 @@
 }
 
 .dsc-carousel__content-item h1 {
-  color: var(--primary-color);
+  color: var(--four-color);
   font-weight: 900;
   text-transform: uppercase;
   z-index: 1;
@@ -91,14 +91,14 @@
 .dsc-carousel__btns > i {
   opacity: 0.7;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
   cursor: pointer;
   justify-content: space-between;
 }
 
 .dsc-carousel__steps {
   position: absolute;
-  bottom: 40px;
+  bottom: 10px;
   width: 100%;
   display: flex;
   justify-content: center;

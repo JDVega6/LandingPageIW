@@ -43,11 +43,17 @@ display: block;
                 font-style: normal;
             }
         }
-        @media (min-width: 350px) and (max-width: 710px){
+        @media (min-width: 350px) and (max-width: 450px){
+            h2{
+                font-size: 20px;
+            }
+        } 
+        @media (min-width: 450px) and (max-width: 710px){
             h2{
                 font-size: 25px;
             }
         } 
+       
     }
 
     .benefit-data-words{
@@ -74,7 +80,6 @@ display: block;
 
     p {
         font-size: 28px;
-        font-style: italic;
         font-weight: 450;
         text-align: justify;
         b {
@@ -85,7 +90,12 @@ display: block;
             font-style: normal;
         }
     }
-    @media (min-width: 350px) and (max-width: 710px){
+    @media (min-width: 350px) and (max-width: 450px){
+        p{
+            font-size: 18px;
+        }
+    } 
+    @media (min-width: 450px) and (max-width: 710px){
         p{
             font-size: 20px;
         }

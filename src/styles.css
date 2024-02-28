@@ -10,7 +10,7 @@
     --light-primary-color: #B79FF7;
     --bg-secondary: #351686;
 
-    --four-color: #0e2151cc;
+    --four-color: #214fc1cc;
 
     /* --primary-color: #0833a2; */
     /* #0e2151cc */
@@ -18,7 +18,7 @@
   }
 
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
     font-size: 16px;
     line-height: 1.6;
     color: #333; /* Color de texto */

@@ -7,7 +7,7 @@ export const TESTIMONIAL_DATA: ITestimonialItem[] = [
         name:"Alejandro",
         country:"Rusia",
         career:"Programación",
-        img:"assets/Estudiantes/IMG_0770(1).jpg",
+        img:"https://media.istockphoto.com/id/1443305526/es/foto/joven-sonriente-con-auriculares-escribiendo-en-el-teclado-de-una-computadora-port%C3%A1til.jpg?s=1024x1024&w=is&k=20&c=Lq2h77UE_J1JPvYpCio8p0nac6Uy2iYdblqW_Tfba6g=",
         description: "David nos ofreció un servicio excepcional al llevarnos de Bogotá a Rostov del Don, Rusia. Nos preparó para nuestra experiencia y tuvimos tiempo para explorar Moscú, ¡el metro fue una maravilla!"
     },
     {
@@ -15,7 +15,7 @@ export const TESTIMONIAL_DATA: ITestimonialItem[] = [
         name:"Oscar",
         country:"Rusia",
         career:"Maestría en arquitectura",
-        img:"assets/Estudiantes/IMG_0771(1).jpg",
+        img:"https://images.pexels.com/photos/2027490/pexels-photo-2027490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         description: "Fui a estudiar una maestría y quedé impresionado por el tema de costos. El viaje fue perfecto y aprecié mucho el profesionalismo de la empresa. Recomiendo totalmente."
     },
     {
